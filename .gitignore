@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Allow only the necessary files
+!p1.ipynb
+!requirements.txt
+!*.py
+!README.md
+!.gitignore
+
+# Ignore unnecessary files/folders
+__pycache__/
+.ipynb_checkpoints/
+env/
+venv/
+*.dll
+*.exe
+*.pyd
+*.log
+*.bat
